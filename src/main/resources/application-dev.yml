@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth_db
+    username: postgres
+    password: postgres
+  
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    com.mobilebanking.auth: DEBUG
+    org.springframework.security: DEBUG
